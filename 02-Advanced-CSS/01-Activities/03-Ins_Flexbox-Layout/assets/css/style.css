@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+main {
+  /* Turns this element into a flexbox */
+  display: flex;
+  margin-top: 2%;
+}
+
+.main-header {
+  display: flex;
+  /* Defines how to distribute the empty space between child elements */
+  justify-content: space-between;
+  padding: 60px;
+  background: #13293d;
+  color: #fff;
+}
+
+.card {
+  /* A flex-basis of 200px sets the starting width */
+  /* A flex-grow value of 1 allows the elements to evenly grow to fill the remaining space */
+  flex: 1 0 200px;
+  padding: 10px;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.card header {
+  padding: 20px;
+  background: #13293d;
+  color: #fff;
+}
+
+.card.camera {
+  /* With a flex-grow value of 2, this element grows twice as wide as others */
+  /* The second value, flex-shrink, defines how the element will shrink if it can't fit */
+  flex: 2 1 200px;
+}

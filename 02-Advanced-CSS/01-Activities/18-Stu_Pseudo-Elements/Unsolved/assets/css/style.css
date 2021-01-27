@@ -1,0 +1,125 @@
+body {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.3;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+  background-color: #13293d;
+  color: #fff;
+}
+
+h1 {
+  font-size: 200%;
+}
+
+h2 {
+  margin: 2% 0;
+  font-size: 180%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  min-width: 300px;
+}
+
+nav a {
+  color: #b9c6ae;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+main {
+  display: flex;
+  flex: 1 1 0;
+  max-width: 1200px;
+  margin: 2% auto;
+}
+
+section {
+  flex: 1 1 0;
+  padding-right: 5%;
+}
+
+article {
+  border-bottom: 1px solid #d8a47f;
+}
+
+article p {
+  margin: 2% 0;
+  font-size: 110%;
+}
+
+/* TODO: Style the keyword - underline, black text, grab cursor */
+
+/* TODO: Position tooltip above the keyword, same color as header and nav links, no border-radius, smaller font size */
+
+aside {
+  width: 25%;
+}
+
+aside h2 {
+  font-size: 150%;
+}
+
+input,
+button {
+  width: 100%;
+  margin: 2% 0;
+  padding: 1%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+  background-color: #13293d;
+  color: #fff;
+}
+
+.resources .links {
+  display: none;
+  padding: 1% 0;
+}
+
+.resources:hover .links {
+  display: block;
+}
+
+.resources h3 {
+  font-size: 150%;
+}
+
+.links a {
+  color: #772014;
+  text-decoration: none;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  header,
+  main {
+    flex-direction: column;
+  }
+
+  section {
+    padding-right: 0;
+  }
+
+  aside {
+    width: 100%;
+    text-align: center;
+  }
+}

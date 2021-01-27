@@ -1,0 +1,32 @@
+nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+button {
+  width: 250px;
+  margin: 0 .5%;
+  font-size: 200%;
+  color: #13293d;
+  background-color: #fff;
+  border: 3px solid #13293d;
+}
+
+/* The user's cursor is positioned over the element */
+button:hover {
+  background-color: #772014;
+  color: #fff;
+}
+
+/* The user is actively pressing down on the element */
+button:active {
+  font-size: 180%;
+  box-shadow: 0 0 10px #000 inset;
+}
+
+/* The element is currently in focus, either by tabbing to or clicking on it */
+button:focus {
+  outline: none;
+  border-color: #8ac4ff;
+}

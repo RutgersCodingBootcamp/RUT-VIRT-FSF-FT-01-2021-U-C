@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Default Form Styles</title>
+</head>
+
+<body>
+  <form>
+    <h1>Default Form Styles</h1>
+    <p>
+      Use the Chrome DevTools to inspect the elements. Try to force <code>:focus</code> state on some of them and look for CSS properties like <code>appearance</code>, <code>outline</code>, and <code>cursor</code>.
+    </p>
+    <p>
+      <label for="username">Name:</label>
+      <!-- This element has a CSS declaration of `cursor: text` -->
+      <input id="username" type="text" placeholder="First Last" />
+    </p>
+    <p>
+      <label  for="email">E-mail:</label>
+      <input id="email" type="text" placeholder="me@example.com" />
+    </p>
+    <p>
+      <label for="expertise">CSS level of expertise:</label>
+      <!-- This element has a CSS declaration of `appearance: menulist` -->
+      <select id="expertise">
+        <option>Beginner</option>
+        <option selected>Intermediate</option>
+        <option>Advanced</option>
+      </select>
+    </p>
+    <p>
+      <label for="comment">Comment:</label>
+      <textarea id="comment" placeholder="Great article!"></textarea>
+    </p>
+    <p>
+      <input class="checkbox" id="agreement" type="checkbox" />
+      <label for="agreement">I agree to share my e-mail address with The CSS Blog</label>
+    </p>
+    <p>
+      <!-- When this element is in a :focus state, the CSS `outline` property is applied -->
+      <button>Submit</button>
+    </p>
+  </form>
+</body>
+
+</html>

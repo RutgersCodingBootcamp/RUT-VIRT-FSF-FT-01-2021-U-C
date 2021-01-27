@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Pseudo Elements</title>
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>CSS</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Resources</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <article>
+          <h2>Pseudo Elements</h2>
+          <div>
+            <p>
+              We can do some cool stuff with the pseudo elements ::before and
+              ::after. For every element on the page, we basically get two more!
+              Let's try a few here.
+            </p>
+            <h3>Header</h3>
+            <p>
+              Notice the header above? If you look at our 'index.html' file, the
+              header text is simply "CSS". But using the pseudo element ::after
+              on the header, we added the words "Pseudo Elements" and gave it a
+              different font and color.
+            </p>
+            <h3>H3 headings</h3>
+            <p>
+              Notice the h3 headings? Using the pseudo element ::before, we added
+              an asterisk before each of the h3 headings.
+            </p>
+            <h3>Nav Items</h3>
+            <p>
+              Notice the navbar items? Using both ::before and ::after pseudo
+              elements on the navbar items, we added red symbols around each
+              one.
+            </p>
+          </div>
+        </article>
+      </section>
+      <aside>
+        <h2>Sign up to Learn More!</h2>
+        <form>
+          <input type="text" placeholder="E-mail address" />
+          <button>Submit</button>
+        </form>
+      </aside>
+    </main>
+
+    <footer>
+      <span>Thanks for visiting!</span>
+    </footer>
+  </body>
+</html>

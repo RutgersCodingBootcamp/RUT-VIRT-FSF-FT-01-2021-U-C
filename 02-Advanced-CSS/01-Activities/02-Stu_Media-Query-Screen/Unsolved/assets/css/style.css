@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+header {
+  padding: 60px;
+  text-align: center;
+  background: #13293d;
+  color: #fff;
+}
+
+.card {
+  border-style: solid;
+  border-width: 1px;
+  padding: 10px;
+  float: left;
+  width: 25%;
+}
+
+.card header {
+  padding: 20px;
+}
+
+.card p {
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+}
+
+/* TODO: Use media query to change the width of the cards so they split into two columns at 992px or smaller*/
+
+/* TODO: Use media query to change the width of the cards so they are stacked on top of each other at 768px or smaller */
