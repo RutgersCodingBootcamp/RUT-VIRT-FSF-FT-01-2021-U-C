@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Custom Forms with CSS</title>
+  <link rel="stylesheet" href="./assets/css/reset.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>The CSS Blog</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Resources</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <article>
+        <h2>Building Responsive Layouts</h2>
+        <div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil natus recusandae amet nostrum odit, ut unde non sint, quia sed inventore odio, delectus iure! Eligendi vitae fuga blanditiis accusamus tempore!</p>
+          <ul>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
+            <li>Nihil natus recusandae amet nostrum odit</li>
+            <li>Eligendi vitae fuga blanditiis accusamus tempore</li>
+          </ul>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil natus recusandae amet nostrum odit, ut unde non sint, quia sed inventore odio, delectus iure! Eligendi vitae fuga blanditiis accusamus tempore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, nisi, saepe quas sint consequuntur esse voluptatum, dolores dolor aspernatur neque laborum dolorum dolorem repudiandae. Dignissimos eveniet sequi corporis tempore ullam!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil natus recusandae amet nostrum odit, ut unde non sint, quia sed inventore odio, delectus iure! Eligendi vitae fuga blanditiis accusamus tempore!</p>
+        </div>
+        <form>
+          <h3>Add a Comment:</h3>
+          <p>
+            <label for="username">Name:</label>
+            <input class="text-input" id="username" type="text" placeholder="First Last" />
+          </p>
+          <p>
+            <label for="email">E-mail:</label>
+            <input class="text-input" id="email" type="text" placeholder="me@example.com" />
+          </p>
+          <p class="flex-row">
+            <label for="expertise">CSS level of expertise:</label>
+            <select id="expertise">
+              <option>Beginner</option>
+              <option selected>Intermediate</option>
+              <option>Advanced</option>
+            </select>
+          </p>
+          <p>
+            <label for="comment">Comment:</label>
+            <textarea class="text-input" id="comment" placeholder="Great article!"></textarea>
+          </p>
+          <p class="flex-row">
+            <input class="checkbox" id="agreement" type="checkbox" />
+            <label for="agreement">I agree to share my e-mail address with The CSS Blog</label>
+          </p>
+          <p>
+            <button>Submit</button>
+          </p>
+        </form>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <span>Thanks for visiting!</span>
+  </footer>
+</body>
+
+</html>

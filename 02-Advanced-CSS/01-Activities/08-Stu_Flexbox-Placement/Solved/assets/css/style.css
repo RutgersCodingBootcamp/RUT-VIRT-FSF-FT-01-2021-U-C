@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: flex-start;
+}
+
+header {
+  padding: 40px;
+  text-align: center;
+  background: #13293d;
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  /* Align the child elements to the right side of the parent */
+  justify-content: flex-end;
+  background-color: #d8a47f;
+}
+
+nav a {
+  color: #13293d;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background: #13293d;
+  color: #fff;
+  margin-top: auto;
+}
+
+.product {
+  display: flex;
+  /* Align the child elements to the top of the parent */
+  align-items: flex-start;
+  width: 90%;
+  margin: 1% auto;
+}
+
+.product button {
+  font-size: 150%;
+}
+
+.product-slideshow {
+  display: flex;
+  /* Align the child elements to the center of the parent */
+  align-items: center;
+}
+
+.product-image {
+  width: 100%;
+}
+
+.product-details {
+  margin-left: 3%;
+  flex: 0 0 60%;
+}
+
+@media screen and (max-width: 768px) {
+  main,
+  nav,
+  .product {
+    flex-direction: column;
+  }
+
+  .product-slideshow button {
+    /* Removes the slideshow buttons from the document flow */
+    display: none;
+  }
+
+  .product-details {
+    margin-left: 0;
+  }
+}

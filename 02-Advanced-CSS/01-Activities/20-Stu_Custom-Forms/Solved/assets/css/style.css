@@ -1,0 +1,164 @@
+body {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.3;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+  background-color: #13293d;
+  color: #fff;
+}
+
+h1 {
+  font-size: 200%;
+}
+
+h2 {
+  margin: 2% 0;
+  font-size: 250%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  min-width: 300px;
+}
+
+nav a {
+  color: #b9C6ae;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+main {
+  display: flex;
+  flex: 1 1 0;
+  max-width: 1200px;
+  margin: 2% auto;
+}
+
+article {
+  border-bottom: 1px solid #d8a47f;
+}
+
+article p {
+  margin: 2% 0;
+  font-size: 110%;
+}
+
+article ul {
+  margin-left: 5%;
+  font-size: 110%;
+  list-style: circle;
+}
+
+form {
+  max-width: 400px;
+}
+
+form h3 {
+  font-size: 150%;
+}
+
+form p {
+  margin: 3% 0;
+}
+
+label {
+  display: block;
+}
+
+button {
+  padding: 1% 2%;
+  color: #fff;
+  background-color: #13293d;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+/* The default appearance is removed and replaced with a custom image */
+select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-image: url("../images/arrow.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+
+.text-input {
+  width: 100%;
+  max-width: 100%;
+}
+
+.text-input, select {
+  padding: 1%;
+  outline: none;
+  border: 1.2px solid #b9C6ae;
+}
+
+.text-input:hover, .checkbox:hover, 
+select:hover, button:hover {
+  box-shadow: 0 0 5px #999;
+}
+
+/* The right-side border changes when the element is clicked on or tabbed into */
+.text-input:focus {
+  border-right-width: 5px;
+}
+
+/* The border becomes dashed when the element's placeholder text is visible */
+.text-input:placeholder-shown {
+  border-style: dashed;
+}
+
+.flex-row {
+  display: flex;
+  align-items: center;
+}
+
+.flex-row select {
+  flex: 1 0 0;
+  margin-left: 2%;
+}
+
+.flex-row input {
+  margin-right: 2%;
+}
+
+/* The font style of the adjacent element changes when the given element is checked */
+.checkbox:checked + label {
+  color: #999999;
+  font-style: italic;
+}
+
+/* When checked, the adjacent element has text insert at the end */
+.checkbox:checked + label::after {
+  margin-left: 10px;
+  font-size: 90%;
+  content: "(thanks!)";
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+  background-color: #13293d;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+  }
+}
