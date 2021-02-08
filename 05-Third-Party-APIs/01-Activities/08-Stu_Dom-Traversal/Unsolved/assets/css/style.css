@@ -1,0 +1,27 @@
+main {
+  margin: 3rem auto;
+  max-width: 90vw;
+  width: 50ch;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+li {
+  height: 180px;
+  width: 150px;
+  border: rgba(42, 196, 230, 0.705) 4px solid;
+  color: #1a1a1a;
+  font-size: 100px;
+  margin: 0 1rem;
+  min-width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

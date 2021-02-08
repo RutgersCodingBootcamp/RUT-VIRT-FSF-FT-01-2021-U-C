@@ -1,0 +1,19 @@
+main {
+  margin: 3rem auto;
+  max-width: 90vw;
+  width: 50ch;
+}
+
+.letter {
+  width: 30px;
+  height: 30px;
+  border-style: solid;
+  padding: 2px;
+  margin: 2px;
+  display: inline-block;
+}
+
+.letter-button {
+  margin: 0.25rem;
+  font-size: 1.25rem;
+}

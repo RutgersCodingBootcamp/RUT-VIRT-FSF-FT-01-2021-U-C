@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Description" content="Enter your description here" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+
+  <title>Bootstrap Utilities</title>
+</head>
+
+<body>
+
+  <!-- Add classes to use sizing properties to make this <div> the full height of viewport, apply a dark background, use flex properties to center align content on the page -->
+  <div class="">
+
+    <!-- Add classes to use sizing properties to make this row run the full width of the page and use flex properties to center justify content -->
+    <section class="row">
+
+      <div class="col-10 col-md-6 col-lg-5">
+
+        <!-- Add classes to center this text and make it white -->
+        <h1 class="display-3">Sign Up!</h1>
+
+        <!-- Add classes to apply a white background, rounded corners, padding, and margin on the y-axis (top and bottom) -->
+        <form class="">
+          <h3>Fill out the form and get started!</h3>
+          <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" id="username" class="form-control" placeholder="Username" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="text" id="email" class="form-control" placeholder="Username" required />
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="text" id="password" class="form-control" placeholder="Password" required />
+          </div>
+
+          <div class="form-group">
+            <label for="referral">Where did you hear about us?</label>
+            <select class="form-control" id="referral">
+              <option disabled selected>Pick One...</option>
+              <option>Social Media</option>
+              <option>Friend/Colleague</option>
+              <option>Billboard</option>
+              <option>Magazine/Email Ad</option>
+              <option>Other</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="yes" id="mailing-list">
+              <label class="form-check-label" for="mailing-list">
+                Sign up for the mailing list?
+              </label>
+            </div>
+          </div>
+
+          <button class="btn btn-block btn-success">Complete Signup!</button>
+        </form>
+      </div>
+    </section>
+
+  </div>
+
+</body>
+
+</html>

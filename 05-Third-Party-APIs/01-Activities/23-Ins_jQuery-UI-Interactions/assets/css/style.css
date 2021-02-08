@@ -1,0 +1,41 @@
+body {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  text-align: center;
+}
+
+.byline {
+  font-weight: 200;
+  font-style: italic;
+}
+
+div {
+  text-align: center;
+}
+
+ul {
+  display: inline-block;
+}
+
+#sortable {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 20%;
+}
+#sortable li {
+  margin: 0 3px 3px 3px;
+  padding: 0.4em;
+  padding-left: 1.5em;
+  font-size: 1.4em;
+  height: 18px;
+}

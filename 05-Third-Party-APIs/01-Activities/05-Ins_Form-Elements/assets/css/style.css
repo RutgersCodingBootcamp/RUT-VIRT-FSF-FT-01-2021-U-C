@@ -1,0 +1,25 @@
+input[type='checkbox'] {
+  display: inline-block;
+  margin-right: 0.25rem;
+}
+
+legend {
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  padding: 0.5rem;
+}
+
+.group {
+  margin-bottom: 1.25rem;
+  margin-top: 1.25rem;
+  padding: 0.125rem;
+}

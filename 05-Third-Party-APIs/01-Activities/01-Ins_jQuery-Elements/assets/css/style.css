@@ -1,0 +1,8 @@
+.fancy {
+  font-size: 60px;
+  color: rgb(122, 242, 242);
+  background-color: black;
+  border-radius: 1rem;
+  width: 380px;
+  margin: 1rem auto;
+}

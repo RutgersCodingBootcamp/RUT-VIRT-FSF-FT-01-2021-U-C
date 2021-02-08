@@ -1,0 +1,35 @@
+:root {
+  --blue: #0c3559;
+  --darkblue: #092640;
+  --seablue: #687b8c;
+  --lightseablue: #aab9bf;
+  --light: #f2f2f2;
+}
+
+.custom-navbar {
+  background-color: var(--darkblue);
+}
+
+.custom-navbar a {
+  font-size: 1.5rem;
+  color: var(--lightseablue);
+}
+
+.custom-navbar a:hover {
+  color: var(--light);
+}
+
+.custom-jumbotron {
+  background-color: var(--seablue);
+  color: var(--darkblue);
+}
+
+.custom-btn {
+  background-color: var(--light);
+  color: var(--blue);
+}
+
+.custom-btn:hover {
+  background-color: var(--darkblue);
+  color: var(--light);
+}
