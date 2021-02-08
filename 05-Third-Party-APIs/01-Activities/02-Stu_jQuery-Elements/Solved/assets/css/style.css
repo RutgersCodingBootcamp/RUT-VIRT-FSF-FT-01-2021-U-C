@@ -1,0 +1,12 @@
+.fancy {
+  font-size: 35px;
+  color: rgb(48, 218, 236);
+  width: 98%;
+  font-style: italic;
+}
+
+.plain {
+  font-size: 25px;
+  color: rgb(207, 210, 211);
+  font-style: italic;
+}

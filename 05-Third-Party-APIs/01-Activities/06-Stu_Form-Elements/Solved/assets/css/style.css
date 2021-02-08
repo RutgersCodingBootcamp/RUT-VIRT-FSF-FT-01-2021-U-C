@@ -1,0 +1,14 @@
+main {
+  margin: 3rem auto;
+  max-width: 90vw;
+  width: 50ch;
+}
+
+ul {
+  margin: 3rem auto;
+  font-size: 1.75rem;
+}
+
+ul li {
+  margin: 1.2rem 0;
+}
