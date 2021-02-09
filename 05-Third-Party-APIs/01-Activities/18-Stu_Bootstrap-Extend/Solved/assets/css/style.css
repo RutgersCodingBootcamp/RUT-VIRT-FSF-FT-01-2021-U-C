@@ -1,0 +1,50 @@
+:root {
+  --brown: #a88f82;
+  --tan: #f5e1d5;
+  --teal: #71a8a7;
+  --lightteal: #d5f5f5;
+  --light: #fffaf7;
+}
+
+::selection {
+  color: var(--brown);
+  background-color: var(--light);
+}
+
+.custom-navbar {
+  background-color: var(--teal);
+}
+
+.custom-navbar a {
+  font-size: 1.5rem;
+  color: var(--lightteal);
+}
+
+.custom-navbar a:hover {
+  color: var(--light);
+}
+
+.custom-jumbotron {
+  background-color: var(--lightteal);
+  color: var(--teal);
+}
+
+.custom-btn {
+  background-color: var(--brown);
+  color: var(--light);
+}
+
+.custom-btn:hover {
+  background-color: var(--tan);
+  color: var(--brown);
+}
+
+.custom-card {
+  border-color: var(--teal);
+  color: var(--brown);
+}
+
+.custom-card-header {
+  background-color: var(--teal);
+  color: var(--lightteal);
+}
